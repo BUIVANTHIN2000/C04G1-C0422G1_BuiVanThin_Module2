@@ -1,7 +1,7 @@
 package ss6_Inheritance.thuc_hanh;
 
 public class Shape {
-    private String color = "red";
+    private String color = "green";
     private boolean filled = true;
 
     public Shape() {
