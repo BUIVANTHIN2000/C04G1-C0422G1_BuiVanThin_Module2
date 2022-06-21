@@ -1,15 +1,19 @@
 package ss0_On_luyen_code.bai_2;
 
 public class Oto extends PhuongTienGiaoThong {
-    private int SoCho = 3;
-    private String KieuXe = "Du Lich";
+    private int soCho = 3;
+    private String kieuXe = "Du Lich";
     public Oto() {
     }
 
     public Oto(int bienKiemSoat, String tenSanXuat, int namSanXuat, String chuSoHuu, int soCho, String kieuXe) {
         super(bienKiemSoat, tenSanXuat, namSanXuat, chuSoHuu);
-        SoCho = soCho;
-        KieuXe = kieuXe;
+        this.soCho = soCho;
+        this.kieuXe = kieuXe;
+    }
+
+    public Oto(String bienKiemSoat, String tenHangSX, int namSX, String chuSoHuu) {
+
     }
 
     @Override
@@ -60,9 +64,10 @@ public class Oto extends PhuongTienGiaoThong {
 
     @Override
     public String toString() {
-        return super.toString()+"oto"+
-                "SoCho=" + SoCho +
-                ", KieuXe='" + KieuXe + '\'';
+        return "Oto" +
+                "soCho=" + soCho +
+                ", kieuXe='" + kieuXe + '\'';
 
     }
 }
+

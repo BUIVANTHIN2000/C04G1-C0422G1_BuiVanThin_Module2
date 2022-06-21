@@ -1,10 +1,10 @@
 package ss0_On_luyen_code.bai_2;
 
 public class PhuongTienGiaoThong {
-private int BienKiemSoat = 2;
-private String TenSanXuat = "Honda";
-private int NamSanXuat = 2023;
-private String ChuSoHuu = "Bui Van Thin";
+private int BienKiemSoat;
+private String TenSanXuat;
+private int NamSanXuat;
+private String ChuSoHuu;
 
     public PhuongTienGiaoThong() {
     }
@@ -14,6 +14,9 @@ private String ChuSoHuu = "Bui Van Thin";
         TenSanXuat = tenSanXuat;
         NamSanXuat = namSanXuat;
         ChuSoHuu = chuSoHuu;
+    }
+
+    public PhuongTienGiaoThong(String bienKiemSoat, String tenSanXuat, int namSanXuat, String chuSoHuu) {
     }
 
     public int getBienKiemSoat() {
@@ -47,12 +50,14 @@ private String ChuSoHuu = "Bui Van Thin";
     public void setChuSoHuu(String chuSoHuu) {
         ChuSoHuu = chuSoHuu;
     }
+
     @Override
     public String toString() {
-        return " PhuongTienGiaoThong " +
-                " BienKiemSoat = " + BienKiemSoat +
-                ", TenSanXuat = '" + TenSanXuat + '\'' +
-                ", NamSanXuat = " + NamSanXuat +
-                ", ChuSoHuu = '" + ChuSoHuu + '\'';
+        return "PhuongTienGiaoThong" +
+                "BienKiemSoat=" + BienKiemSoat +
+                ", TenSanXuat='" + TenSanXuat + '\'' +
+                ", NamSanXuat=" + NamSanXuat +
+                ", ChuSoHuu='" + ChuSoHuu + '\'';
     }
 }
+
