@@ -1,6 +1,6 @@
-package s12_java_collection_framewwork.bai_tap.services.impl;
+package s11_java_collection_framewwork.bai_tap.services.impl;
 
-import s12_java_collection_framewwork.bai_tap.Model.Product;
+import s11_java_collection_framewwork.bai_tap.Model.Product;
 
 import java.util.ArrayList;
 import java.util.Collections;

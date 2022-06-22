@@ -1,6 +1,6 @@
-package s12_java_collection_framewwork.bai_tap.Controller;
+package s11_java_collection_framewwork.bai_tap.Controller;
 
-import s12_java_collection_framewwork.bai_tap.services.impl.ProductServices;
+import s11_java_collection_framewwork.bai_tap.services.impl.ProductServices;
 
 import java.util.Scanner;
 

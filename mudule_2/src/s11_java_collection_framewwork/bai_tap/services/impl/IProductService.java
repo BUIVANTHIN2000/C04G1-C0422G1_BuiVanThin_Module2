@@ -1,4 +1,4 @@
-package s12_java_collection_framewwork.bai_tap.services.impl;
+package s11_java_collection_framewwork.bai_tap.services.impl;
 
 public interface IProductService {
     void addProduct();
