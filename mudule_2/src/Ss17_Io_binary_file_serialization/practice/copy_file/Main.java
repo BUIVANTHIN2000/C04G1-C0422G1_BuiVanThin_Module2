@@ -1,4 +1,4 @@
-package ss17_BinaryFile.Thuc_hanh;
+package Ss17_Io_binary_file_serialization.practice.copy_file;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -9,7 +9,6 @@ public class Main {
     private static void copyFileUsingJava7Files(File source, File dest) throws IOException {
         Files.copy(source.toPath(), dest.toPath(), StandardCopyOption.REPLACE_EXISTING);
     }
-
     private static void copyFileUsingStream(File source, File dest) throws IOException {
         InputStream is = null;
         OutputStream os = null;
@@ -26,7 +25,6 @@ public class Main {
             os.close();
         }
     }
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -37,7 +35,6 @@ public class Main {
 
         File sourceFile = new File(sourcePath);
         File destFile = new File(destPath);
-
         try {
             copyFileUsingJava7Files(sourceFile, destFile);
             //copyFileUsingStream(sourceFile, destFile);
