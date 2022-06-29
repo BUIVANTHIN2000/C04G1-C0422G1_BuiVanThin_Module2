@@ -3,8 +3,6 @@ package Ss17_Io_binary_file_serialization.exercise.service.impl;
 import Ss17_Io_binary_file_serialization.exercise.model.Product;
 import Ss17_Io_binary_file_serialization.exercise.service.IService;
 import Ss17_Io_binary_file_serialization.exercise.util.ReadAndWrite;
-import baiTapThem.model.Truck;
-import baiTapThem.utill.ReadAndWriteCSV;
 
 import java.util.List;
 import java.util.Scanner;
